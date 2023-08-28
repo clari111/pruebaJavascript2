@@ -40,5 +40,15 @@ function dividir ( g, h)
 }
 alert (dividir( 60, 3))
 
+function sumaypotencia (x, b)
+{
+    let resultado = x * x + b
+    return resultado
+}
+alert (sumaypotencia(6, 7))
 
-
+function Saludar (nombre, apellido)
+{
+return  'bienvenido' + nombre + apellido
+}
+alert(Saludar(clara, gauna))
