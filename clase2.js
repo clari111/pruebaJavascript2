@@ -73,21 +73,23 @@ function calcularPotencia1 (x, a)
 
     return resultado
 }
-alert (calcularPotencia1(5, 8)
+alert (calcularPotencia1(5, 8))
 
 function calcularProblema2 (x, a, b)
-    
-{ let resultado = (x - a) * b
+ { 
+    let resultado = (x - a) * b
  return 'Resultado del problema 2' + resultado
 }
-alert (calcularProblema2(4, 3, 2)
+alert (calcularProblema2(4, 3, 2))
+
+
 
     function calcularProblema3 ( x, a)
 {
     let resultado = (x * x) * x * x + a
     return 'El resultado del problema 3 es ' + resultado
 }
-alert (calcularProblema3 (6, 20)
+alert (calcularProblema3 (6, 20))
 
        
 function calcularProblema4 (x, a, b)
@@ -95,20 +97,20 @@ function calcularProblema4 (x, a, b)
     let resultado = (x / a) + b
     return 'El resultado del problema 4 es ' + resultado
 }
-alert (calcularProblema4(3, 2, 5)
+alert (calcularProblema4(3, 2, 5))
 
        function calcularProblema5 (x, a)
 {
     let resultado = (x * x * x) + (x * x) + a
     return 'El resultado del problema 5 es ' + resultado
 }
-alert (calcularProblema5( 3, 10)
+alert (calcularProblema5( 3, 10))
 
     function calcularProblema6 ( x, a, b)
 {
     let resultado = (x * a) * b
     return 'el resultado del problema 6 es ' + resultado
 }
-alert (calcularProblema6( 7, 10, 5)
+alert (calcularProblema6( 7, 10, 5))
 
- 
+/* otro */
