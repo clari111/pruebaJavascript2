@@ -114,3 +114,27 @@ alert (calcularProblema5( 3, 10))
 alert (calcularProblema6( 7, 10, 5))
 
 /* otro */
+
+function estaAprobado (notaExamen)
+let estado 
+    if (notaExamen >= 6)
+{
+    
+        estado = 'Felicidades aprobaste'
+    
+}
+else {
+    estado = 'Desaprobaste, segui estudiando'
+}
+return estado
+
+  let vikyymarSeLlevamaterias = false
+
+  if (vikyymarSeLlevamaterias == true)
+  {
+      alert('se va a diciembre')
+  }else{
+      alert ('le compran los maquillajes que quieran')
+  }
+
+  
