@@ -133,8 +133,61 @@ return estado
   if (vikyymarSeLlevamaterias == true)
   {
       alert('se va a diciembre')
-  }else{
+  }
+  else {
       alert ('le compran los maquillajes que quieran')
   }
 
-  
+  /* 25 de sept */
+                    
+if (edadAlumno >= edadIngreso)
+{
+    alert ('bienvenido')
+}
+
+let estaLloviendo = false
+if (estaLloviendo == true)
+{
+    alert('Lleva un paragua')
+}
+
+let notaAlumno = Number(prompt('ingresa tu nota'))
+if (notaAlumno >= 8)
+{
+    alert ('Esta aprobado')
+}else{
+    alert ('Estas aprobado')
+}
+
+/*Ejemplos mios*/
+
+let haceFrio = true
+
+if (haceFrio == false)
+{
+    alert('Vamos con pollera al colegio')
+}else{
+    alert('No vamos de pollera al colegio')
+}
+
+
+
+let estoyEnlalista = true
+
+if (estoyEnlalista == false)
+{
+alert ('No paso al xv')
+}else{
+    alert(' Entro al xv')
+}
+
+
+
+ let aprueboTodoslosexamenes = true
+
+ if (aprueboTodoslosexamenes == false)
+ {
+     alert ('puedo salir los findes')
+ }else{
+     alert ('no salgo los findes')
+ }
