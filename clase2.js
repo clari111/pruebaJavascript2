@@ -185,9 +185,33 @@ alert ('No paso al xv')
 
  let aprueboTodoslosexamenes = true
 
+
  if (aprueboTodoslosexamenes == false)
  {
      alert ('puedo salir los findes')
  }else{
      alert ('no salgo los findes')
+ }
+
+ /* 9 de octubre */
+ 
+ let cantidadHijos =  8
+ let edad = 2023 - 2009
+ let cantidadDecasas = 0
+ let trabajoFormal = true
+
+ if ((edad >= 18) && (trabajoFormal == true) && (cantidadDecasas >0))
+ {
+     alert ('Podes entrar al sorteo')
+ }else{
+     alert ('No podes entrar al sorteo')
+ }
+
+
+
+ if  (cantidadHijos > 8)
+ {
+     alert ('Tenes prioridad en el sorteo')
+ } else{
+     alert ('No tenes tanta prioridad')
  }
